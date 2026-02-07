@@ -1,0 +1,70 @@
+/* Custom CSS for Jupyter Notebook */
+
+/* Make markdown headers more reasonable */
+#notebook-container h1 {
+    font-size: 1.8em;
+    margin: 0.7em 0 0.5em 0;
+}
+
+#notebook-container h2 {
+    font-size: 1.5em;
+    margin: 0.6em 0 0.4em 0;
+}
+
+#notebook-container h3 {
+    font-size: 1.3em;
+    margin: 0.5em 0 0.3em 0;
+}
+
+/* Improve code cell appearance */
+.CodeMirror pre {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Better spacing for cells */
+.cell {
+    margin: 1em 0;
+}
+
+/* Output area styling */
+.output_subarea {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+/* Make tables look better */
+dataframe {
+    font-size: 95%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+dataframe th, dataframe td {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+dataframe th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Better markdown lists */
+#notebook-container ul, 
+#notebook-container ol {
+    margin: 0.5em 0;
+    padding-left: 2em;
+}
+
+/* Better blockquotes */
+#notebook-container blockquote {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-left: 4px solid #dfe2e5;
+    color: #6a737d;
+    background-color: #f6f8fa;
+}
